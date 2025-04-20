@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="dogs.css"/>
+    <head>
+        <title>Bernese Mountain Dogs</title>
+    </head>
+
+    <body>
+        <img id="the_dogIcon" src="https://images.stockcake.com/public/2/9/4/294e5fe1-752a-47e6-963a-0448e02c69a6_large/pensive-bernese-mountain-stockcake.jpg" alt="Dog Icon">
+        <header class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="nicewebsite.html">Home</a></li>
+                    <li><a href="corgi.html">Corgi</a></li>
+                    <li><a href="bernesemtndog.html">Bernese Mountain Dog</a></li>
+                    <li><a href="dobermann.html">Doberman</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 style = "width:340px">Bernese Mountain Dogs</h1>
+        
+        <div class = "space"></div>
+
+        <div>
+        This is a video about Bernese Mountain Dogs. Don't you love Bernese Mountain Dogs? I know I do. They are so cute and fluffy. I love their big paws and beady eyes. I really like Bernese Mountain puppies. They are sooo cute! I hope you enjoy this video about Bernese Mountain Dogs.
+        <div class = "space"></div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZCUsqs3lLPk?si=BmvEdyhTJzN6WNqF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class = "space"></div>
+
+        <div>Secret Image🤫</div>
+
+        <div class="container">
+          <div class="photo" style="background-image: url('https://www.elliotshouse.com/wp-content/uploads/2018/12/Screen-Shot-2018-12-07-at-8.00.27-AM.png');"></div>
+        </div>
+
+        <script type="text/javascript" src = "dogs.js"></script>
+        
+    </body>
+</html>
+
+
+This is also from the Dog Websites, specifically for Bernese Mountain Dogs.
+
+I think html is like the outline and format of the website design, where css and javascript add features to the website to make it look nicer.
