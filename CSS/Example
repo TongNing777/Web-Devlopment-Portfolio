@@ -1,0 +1,25 @@
+div.container {
+    width: 600px;
+    height: 400px;
+    background: pink;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* horizontal alignment */
+    align-items: center; /* vertical alignment */
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+  .sticky {
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Stick to the top */
+    left: 0; /* Stick to the left */
+    right: 0; /* Stick to the right */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow */
+  }
+
+
+This is the code for my Dog Website, which I designed with Joy.
