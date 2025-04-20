@@ -1,0 +1,24 @@
+//////////////////// Sticky Navigation Bar ///////////////
+// Get the  navbar
+const navbar = document.querySelector('.navbar');
+
+// Get the offset position of the navbar
+const sticky = navbar.offsetTop;
+
+// Add a scroll event listener to the window
+window.addEventListener('scroll', () => {
+    console.log("Page Y Offset:", window.pageYOffset);
+    console.log("Navabar OffsetTop", sticky);
+
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add('sticky'); // Add the sticky class to the navbar when you reach its scroll position
+        console.log("Sticky added");
+    } else {
+        navbar.classList.remove('sticky'); // Remove the sticky class when you leave the scroll position
+        console.log("Sticky Removed");
+    }
+})
+
+
+This is also from the dog website, which Joy and I made together. 
+This JavaScript allows us to keep the navigation bar on the top of the webpage.
