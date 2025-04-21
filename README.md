@@ -1,6 +1,7 @@
 # DCS-325-Portfolio
 
 This is my portfolio for the DCS325 Web Development course, which includes all the content I learned from this course.
+
 There is an example file inside each folder, where I provide some code I wrote this semester, related to the topic.
 
 Below, I also provide a menu for each folder, and  a brief discussion of what role that topic/tool/framework plays in developing a website.
@@ -9,19 +10,33 @@ At the end of the README.md, I answered the reflection questions.
 
 
 ## Sections
-1. [HTML](HTML/) - Basics of structuring web pages. HTML generally structures content in groups, such as <header>, <main>, and <section>, making the content easier to read by arranging the layouts.
-2. [CSS](CSS/) — CSS allows flexible styling across screen sizes and devices, improving the visual presentation of a webpage layout, colors, fonts, and spacing.
-3. [JavaScript](JavaScript/) — Adding interactivity and functionality. It allows developers to respond to user actions (e.g., clicks) and build features like sliders and carousels.
-4. [ssh & scp](ssh & scp/) - SSH provides secure access to remote servers. SSH keys improve security and eliminate the need to type passwords every time. SCP allows developers to securely transfer files (e.g., uploading websites).
-5. [React](React/) - React builds interactive components. Components (like <Navbar /> or <Card />) make code reusable and easier to manage. React handles dynamic updates efficiently.
-6. [Bootstrap](Bootstrap/) - Bootstrap is a CSS framework with pre-styled components (e.g., buttons, navbars) and a grid system. It helps developers build responsive websites quickly without custom CSS.
-7. [Tailwind CSS](Tailwind CSS/) — It allows developers to style elements directly in their HTML/JSX using predefined class names (e.g., p-4, bg-gray-100). It's fast, flexible, and highly customizable. Compared to CSS, Tailwind CSS doesn't need to switch between HTML and CSS and allows consistent design using a design system.
-8. [ShaCN UI](ShadCN UI/) - ShadCN/UI provides ready-to-use, accessible components (like buttons and dialogs) built with Tailwind.
-9. [User Experience (Krug)](User Experience (Krug)/) - Steve Krug’s UX principles provide tips for making user-friendly websites. They emphasize simplicity, clarity, and navigation without confusing users.
-10. [Accessibility](Accessibility/) - Accessibility ensures websites are usable by everyone, including people with disabilities. This includes keyboard navigation, screen reader support, high color contrast, visual hierarchy, and breadcrumbs.
-11. [Figma](Figma/) - Figma is a design and prototyping tool to plan websites before coding visually. It helps define layouts, color schemes, and user flows, ensuring consistency and a better design.
-12. [Cursor](Cursor/) - Cursor is an AI-assisted code editor that helps generate and explain code. It enhances productivity by offering suggestions and debugging help during development, but developers still need to style and debug.
-13. [Google Firebase](Google Firebase/) - Firebase provides backend services like authentication, databases, and hosting. It lets front-end developers implement login systems and save user data.
+
+1. [HTML](./HTML/) - Basics of structuring web pages. HTML generally structures content in groups, such as `<header>`, `<main>`, and `<section>`, making the content easier to read by arranging the layouts.
+
+2. [CSS](./CSS/) — CSS allows flexible styling across screen sizes and devices, improving the visual presentation of a webpage layout, colors, fonts, and spacing.
+
+3. [JavaScript](./JavaScript/) — Adding interactivity and functionality. It allows developers to respond to user actions (e.g., clicks) and build features like sliders and carousels.
+
+4. [ssh & scp](./ssh%20&%20scp/) - SSH provides secure access to remote servers. SSH keys improve security and eliminate the need to type passwords every time. SCP allows developers to securely transfer files (e.g., uploading websites).
+
+5. [React](./React/) - React builds interactive components. Components (like `<Navbar />` or `<Card />`) make code reusable and easier to manage. React handles dynamic updates efficiently.
+
+6. [Bootstrap](./Bootstrap/) - Bootstrap is a CSS framework with pre-styled components (e.g., buttons, navbars) and a grid system. It helps developers build responsive websites quickly without custom CSS.
+
+7. [TailwindCSS](./TailwindCSS/) — It allows developers to style elements directly in their HTML/JSX using predefined class names (e.g., `p-4`, `bg-gray-100`). It's fast, flexible, and highly customizable. Compared to CSS, Tailwind CSS doesn't need to switch between HTML and CSS and allows consistent design using a design system.
+
+8. [ShadCN UI](./ShadCN%20UI/) - ShadCN/UI provides ready-to-use, accessible components (like buttons and dialogs) built with Tailwind.
+
+9. [User Experience (Krug)](./User%20Experience%20(Krug)/) - Steve Krug’s UX principles provide tips for making user-friendly websites. They emphasize simplicity, clarity, and navigation without confusing users.
+
+10. [Accessibility](./Accessibility/) - Accessibility ensures websites are usable by everyone, including people with disabilities. This includes keyboard navigation, screen reader support, high color contrast, visual hierarchy, and breadcrumbs.
+
+11. [Figma](./Figma/) - Figma is a design and prototyping tool to plan websites before coding visually. It helps define layouts, color schemes, and user flows, ensuring consistency and a better design.
+
+12. [Cursor](./Cursor/) - Cursor is an AI-assisted code editor that helps generate and explain code. It enhances productivity by offering suggestions and debugging help during development, but developers still need to style and debug.
+
+13. [Google Firebase for backend](./Google%20Firebase%20for%20backend/) - Firebase provides backend services like authentication, databases, and hosting. It lets front-end developers implement login systems and save user data.
+    
 
 ## Reflection Questions
 1. What was your experience in using React+Vite for building web apps compared to "rolling your own" using HTML, CSS, & JavaScript?
