@@ -1,0 +1,10 @@
+One aspect of accessibility is to add alt to the pictures provided, which allow the extension to read the content.
+<img src="profile.jpg" alt="Tong Ning profile photo" />
+
+Ensured sufficient color contrast between text and background. For most of the time, I use black words on the white background. I also provide dark mode, which allows white words on the black background.
+// in .jsx
+function toggleDarkMode() {
+  document.documentElement.classList.toggle('dark');
+}
+// in .html
+<button onClick={toggleDarkMode}>Toggle Dark Mode</button>
