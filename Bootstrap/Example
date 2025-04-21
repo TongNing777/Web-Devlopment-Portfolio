@@ -1,0 +1,19 @@
+The website provides many example that we could add into our own website, which could include more features and make the website more engaging.
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+<p class="d-inline-flex gap-1">
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-bs-target
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+  </div>
+</div>
+
+
+This is the code that I tried out for the bootstrap, which is a collapse feature. To click the button to show or hide another element.
