@@ -1,0 +1,26 @@
+// components/Header.jsx
+function Header() {
+  return (
+    <header className="text-center p-4 bg-gray-100 shadow">
+      <h1 className="text-3xl font-bold">Tong Ning</h1>
+      <p className="text-sm text-gray-600">Welcome to My Portfolio</p>
+    </header>
+  );
+}
+export default Header;
+
+// Used in Main.jsx
+import Header from './components/Header';
+function App() {
+  return (
+    <>
+      <Header />
+      <About />
+      <Skills />
+      <Resume />
+    </>
+  );
+}
+
+
+This is the code I wrote for my personal website, which I am still working on.
