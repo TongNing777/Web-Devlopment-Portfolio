@@ -1,0 +1,9 @@
+Cursor is similar to the VSCode, but incorporating a AI section, which could be very helpful when setting up a basic website or answering questions.
+
+This is the command I used for setting up a basic website:
+Please help me to set up a basic website using TailwindCSS and React (vite).
+
+After setting up the basic folder, I asked for more specific task:
+Please help me to make a simple Rock Paper Scissors game using HTML, CSS, and JavaScript.
+
+This gives me a simple website for the game, but still need to work on the layouts and colors to make it looks prettier.
