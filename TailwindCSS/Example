@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class=" min-h-screen p-4">
+
+    <div class="bg-zinc-50 text-chestnut text-2xl">Chestnut Color</div>
+
+    <div class="bg-zinc-50 highlight text-2xl">Try to Highlight me</div>
+  
+    <div class="card">
+        <h3>Writes Upside-Down</h3>
+        <p>Something...</p>
+        <button id="toggleDark" 
+        onclick="document.body.classList.toggle('dark')">Toggle Dark Mode</button>
+    </div>
+      
+
+    <details class="mt-8 p-4 border rounded-md shadow">
+        <summary class="cursor-pointer font-semibold">More Info</summary> 
+        <p>This is expandable</p>
+    </details>
+
+</body>
+</html>
+
+
+This is the code for the tutorial that I watched and followed with. 
+
+This website helps with the setup of tailwind css, and also provide some examples for using it:
+https://tailwindcss.com/docs/installation/using-vite
+
+I also use an extension in my VSCode called Tailwind CSS IntelliSense, to make my code look cleaner.
