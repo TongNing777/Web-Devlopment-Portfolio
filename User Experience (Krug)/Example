@@ -1,0 +1,14 @@
+Key UX Principles I Applied:
+
+- Visual hierarchy – I used <h1>, <h2> and size and font to prioritize the most important content
+ <h2 className="text-2xl font-semibold mb-4">Skills & Interests</h2>
+
+- Consistent navigation – I used same navbar and similar layouts in each page
+  .sticky {
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Stick to the top */
+    left: 0; /* Stick to the left */
+    right: 0; /* Stick to the right */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow */
+  }
+
