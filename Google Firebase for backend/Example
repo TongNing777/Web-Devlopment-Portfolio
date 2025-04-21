@@ -1,0 +1,29 @@
+After installing the firebase (npm install firebase):
+
+// firebase.js
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+
+const firebaseConfig = {
+  apiKey: "your-api-key",
+  authDomain: "your-app.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-app.appspot.com",
+  messagingSenderId: "xxxxxxx",
+  appId: "your-app-id"
+};
+
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
+
+// Saving data to firestore
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "./firebase";
+
+async function handleSubmit(name, message) {
+  await addDoc(collection(db, "messages"), {
+    name: name,
+    message: message,
+    timestamp: new Date()
+  });
+}
